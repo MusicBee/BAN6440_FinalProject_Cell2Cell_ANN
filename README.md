@@ -186,15 +186,4 @@ Check the generated files after each run and retain the actual output used to su
 - Validate feature timing and the original dataset documentation; exclusion of identified retention-related fields reduces potential leakage risk but does not prove that every remaining feature is free of leakage.
 - The current experiments are offline model evaluations. Do not claim production deployment or realised retention uplift unless these have actually been implemented and measured.
 
-## References and Disclosure
 
-Include the verified original Cell2Cell dataset citation and cite technical or academic sources actually consulted. The project should also include the required Nexford University AI disclosure form. Describe AI assistance accurately and verify all reported results against executed code outputs.
-
-Suggested methodological references:
-
-- Kaufman, S., Rosset, S., Perlich, C., & Stitelman, O. (2012). Leakage in data mining: Formulation, detection, and avoidance. *ACM Transactions on Knowledge Discovery from Data, 6*(4), Article 15. https://doi.org/10.1145/2382577.2382579
-- Saito, T., & Rehmsmeier, M. (2015). The precision-recall plot is more informative than the ROC plot when evaluating binary classifiers on imbalanced datasets. *PLOS ONE, 10*(3), e0118432. https://doi.org/10.1371/journal.pone.0118432
-
-## Academic Integrity
-
-This README documents the current project workflow and the results provided from executed experiments. Review all paths, filenames, dependency versions, data-source details, and statements against the actual project before submission. Report only experiments that were run and results that can be reproduced or verified.
