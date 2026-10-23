@@ -27,6 +27,10 @@ Ann_FinalProject/
     ├── cell2cell_logistic_benchmark_with_plots.py
 ├── outputs/
 │   ├── cell2cell_baseline/
+│       ├── plots/
+│       ├── baseline_metrics
+│       ├── training_history
+│       ├── confusion_matrix          
 │   ├── cell2cell_ann_threshold_analysis/
 │   └── cell2cell_logistic_benchmark/
 ├── Documentation/
