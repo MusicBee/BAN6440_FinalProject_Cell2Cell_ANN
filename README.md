@@ -6,6 +6,36 @@ This project investigates customer churn prediction using the Cell2Cell telecomm
 
 The business objective is to help a telecommunications provider identify customers who may be at risk of leaving so retention teams can better prioritise interventions. Model outputs should support—not replace—business judgment and campaign testing.
 
+## Expected Project Structure
+
+Your local project may be organised as follows; update filenames to match the scripts actually present in your project:
+
+```text
+Ann_FinalProject/
+├── cell2celltrain.csv
+├── cell2cell_data_prep.py
+├── cell2cell_baseline_ann.py
+├── cell2cell_ann_threshold_analysis_with_plots.py
+├── cell2cell_logistic_benchmark_with_plots.py
+├── notebook/
+    ├── cell2cell_step_by_step_analysis.ipynb
+├── src/
+    ├── cell2celltrain.csv
+    ├── cell2cell_data_prep.py
+    ├── cell2cell_baseline_ann.py
+    ├── cell2cell_ann_threshold_analysis_with_plots.py
+    ├── cell2cell_logistic_benchmark_with_plots.py
+├── outputs/
+│   ├── cell2cell_baseline/
+│   ├── cell2cell_ann_threshold_analysis/
+│   └── cell2cell_logistic_benchmark/
+├── Documentation/
+│   ├── Additional_AI_Disclosure_Details.docx
+│   ├── BAN6440_Executive Summary - Kayode Ogunyemi.pdf
+├── README.md
+└── requirements.txt
+```
+
 ## Dataset
 
 - **Dataset file expected:** `cell2celltrain.csv`
@@ -117,24 +147,6 @@ At their respective validation-selected thresholds, the baseline ANN performed s
 
 **Important terminology:** The ANN result at threshold 0.23 is the baseline ANN with an adjusted classification threshold. It is not a separately trained or hyperparameter-optimised ANN. Results for any future Optimized ANN must remain pending until that experiment has been run and evaluated on the same held-out test records.
 
-## Expected Project Structure
-
-Your local project may be organised as follows; update filenames to match the scripts actually present in your project:
-
-```text
-Ann_FinalProject/
-├── cell2celltrain.csv
-├── cell2cell_data_prep.py
-├── cell2cell_baseline_ann.py
-├── cell2cell_ann_threshold_analysis_with_plots.py
-├── cell2cell_logistic_benchmark_with_plots.py
-├── outputs/
-│   ├── cell2cell_baseline/
-│   ├── cell2cell_ann_threshold_analysis/
-│   └── cell2cell_logistic_benchmark/
-├── README.md
-└── requirements.txt
-```
 
 ## Running the Scripts
 
