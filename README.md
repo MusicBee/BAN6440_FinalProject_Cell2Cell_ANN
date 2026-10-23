@@ -32,6 +32,7 @@ Ann_FinalProject/
 ├── Documentation/
 │   ├── Additional_AI_Disclosure_Details.docx
 │   ├── BAN6440_Executive Summary - Kayode Ogunyemi.pdf
+│   ├── FinalProject - Kayode Ogunyemi.docx
 ├── README.md
 └── requirements.txt
 ```
