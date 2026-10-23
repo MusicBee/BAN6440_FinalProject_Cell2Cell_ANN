@@ -6,7 +6,7 @@ This project investigates customer churn prediction using the Cell2Cell telecomm
 
 The business objective is to help a telecommunications provider identify customers who may be at risk of leaving so retention teams can better prioritise interventions. Model outputs should support—not replace—business judgment and campaign testing.
 
-## Expected Project Structure
+## Project Structure
 
 Your local project may be organised as follows; update filenames to match the scripts actually present in your project:
 
