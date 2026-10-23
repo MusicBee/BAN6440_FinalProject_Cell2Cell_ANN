@@ -1,0 +1,14 @@
+# BAN6440 Cell2Cell churn prediction project
+# Core data handling
+pandas
+numpy
+
+# Machine learning and preprocessing
+scikit-learn
+tensorflow
+
+# Visualizations
+matplotlib
+
+# Saving/loading models and preprocessing objects
+joblib
