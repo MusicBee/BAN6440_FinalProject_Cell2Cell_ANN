@@ -1,0 +1,36 @@
+{
+  "input_file": "C:\\Users\\Kayode Ogunyemi\\PycharmProjects\\Ann_FinalProject\\cell2celltrain.csv",
+  "input_rows": 51047,
+  "rows_after_duplicate_removal": 51047,
+  "duplicate_rows_removed": 0,
+  "columns_in_input": 58,
+  "total_missing_cells_before_preprocessing": 3515,
+  "missing_values_by_column": {
+    "AgeHH2": 909,
+    "AgeHH1": 909,
+    "PercChangeRevenues": 367,
+    "PercChangeMinutes": 367,
+    "MonthlyRevenue": 156,
+    "MonthlyMinutes": 156,
+    "RoamingCalls": 156,
+    "OverageMinutes": 156,
+    "DirectorAssistedCalls": 156,
+    "TotalRecurringCharge": 156,
+    "ServiceArea": 24,
+    "Handsets": 1,
+    "CurrentEquipmentDays": 1,
+    "HandsetModels": 1
+  },
+  "churn_counts": {
+    "0": 36336,
+    "1": 14711
+  },
+  "excluded_identifier_columns": [
+    "CustomerID"
+  ],
+  "excluded_potential_leakage_columns": [
+    "RetentionCalls",
+    "RetentionOffersAccepted",
+    "MadeCallToRetentionTeam"
+  ]
+}

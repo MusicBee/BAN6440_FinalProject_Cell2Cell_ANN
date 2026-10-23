@@ -1,0 +1,66 @@
+{
+  "input_file": "C:\\Users\\Kayode Ogunyemi\\PycharmProjects\\Ann_FinalProject\\cell2celltrain.csv",
+  "input_rows": 51047,
+  "rows_after_duplicate_removal": 51047,
+  "duplicate_rows_removed": 0,
+  "columns_in_input": 58,
+  "total_missing_cells_before_preprocessing": 3515,
+  "missing_values_by_column": {
+    "AgeHH2": 909,
+    "AgeHH1": 909,
+    "PercChangeRevenues": 367,
+    "PercChangeMinutes": 367,
+    "MonthlyRevenue": 156,
+    "MonthlyMinutes": 156,
+    "RoamingCalls": 156,
+    "OverageMinutes": 156,
+    "DirectorAssistedCalls": 156,
+    "TotalRecurringCharge": 156,
+    "ServiceArea": 24,
+    "Handsets": 1,
+    "CurrentEquipmentDays": 1,
+    "HandsetModels": 1
+  },
+  "churn_counts": {
+    "0": 36336,
+    "1": 14711
+  },
+  "excluded_identifier_columns": [
+    "CustomerID"
+  ],
+  "excluded_potential_leakage_columns": [
+    "RetentionCalls",
+    "RetentionOffersAccepted",
+    "MadeCallToRetentionTeam"
+  ],
+  "seed": 42,
+  "train_rows": 35732,
+  "validation_rows": 7657,
+  "test_rows": 7658,
+  "predictor_columns_before_encoding": 53,
+  "encoded_features": 818,
+  "architecture": [
+    32,
+    16,
+    1
+  ],
+  "hidden_activation": "relu",
+  "output_activation": "sigmoid",
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "loss": "binary_crossentropy",
+  "batch_size": 32,
+  "max_epochs": 100,
+  "early_stopping_patience": 10,
+  "epochs_trained": 12,
+  "classification_threshold": 0.5,
+  "metrics": {
+    "accuracy": 0.7068425176286237,
+    "precision": 0.42962962962962964,
+    "recall": 0.05256003624830086,
+    "f1_score": 0.09366168752523213,
+    "roc_auc": 0.6313502167890778,
+    "average_precision": 0.38721486247598436,
+    "classification_threshold": 0.5
+  }
+}
