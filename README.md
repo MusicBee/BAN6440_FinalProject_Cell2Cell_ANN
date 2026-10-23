@@ -8,7 +8,7 @@ The business objective is to help a telecommunications provider identify custome
 
 ## Project Structure
 
-Your local project may be organised as follows; update filenames to match the scripts actually present in your project:
+My local project is organised as follows; 
 
 ```text
 Ann_FinalProject/
@@ -57,7 +57,7 @@ Ann_FinalProject/
 - **Target:** `Churn` (Yes/No)
 - **Target distribution in the analysed source file:** 36,336 No (71.18%) and 14,711 Yes (28.82%)
 
-Place the dataset in the project directory or pass its path to the scripts. Confirm the dataset's original source, licence, feature definitions, and citation before final submission. The dataset itself is not included in this README.
+
 
 ## Workflow
 
