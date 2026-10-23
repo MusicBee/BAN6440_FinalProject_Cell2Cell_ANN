@@ -1,0 +1,91 @@
+{
+  "input_file": "C:\\Users\\Kayode Ogunyemi\\PycharmProjects\\Ann_FinalProject\\cell2celltrain.csv",
+  "rows_before_duplicate_removal": 51047,
+  "duplicate_rows_removed": 0,
+  "rows_after_duplicate_removal": 51047,
+  "missing_cells_before_preprocessing": 3515,
+  "missing_values_by_column": {
+    "AgeHH1": 909,
+    "AgeHH2": 909,
+    "PercChangeRevenues": 367,
+    "PercChangeMinutes": 367,
+    "DirectorAssistedCalls": 156,
+    "TotalRecurringCharge": 156,
+    "RoamingCalls": 156,
+    "OverageMinutes": 156,
+    "MonthlyRevenue": 156,
+    "MonthlyMinutes": 156,
+    "ServiceArea": 24,
+    "Handsets": 1,
+    "HandsetModels": 1,
+    "CurrentEquipmentDays": 1
+  },
+  "churn_counts": {
+    "No (0)": 36336,
+    "Yes (1)": 14711
+  },
+  "test_churn_prevalence": 0.28819535126664925,
+  "split_rows": {
+    "train": 35732,
+    "validation": 7657,
+    "test": 7658
+  },
+  "excluded_columns": [
+    "CustomerID",
+    "RetentionCalls",
+    "RetentionOffersAccepted",
+    "MadeCallToRetentionTeam"
+  ],
+  "predictor_columns_before_encoding": 53,
+  "encoded_feature_count": 818,
+  "epochs_trained": 12,
+  "threshold_selection": "Validation-only threshold grid 0.05-0.95, step 0.01; maximize F1; tie-break precision then higher threshold.",
+  "selected_threshold": 0.23,
+  "validation_metrics_at_selected_threshold": {
+    "threshold": 0.23,
+    "accuracy": 0.4509599059683949,
+    "precision": 0.32299237723807833,
+    "recall": 0.8255550521069325,
+    "f1_score": 0.464322120285423,
+    "roc_auc": 0.6077798747105748,
+    "average_precision": 0.36973826640151897
+  },
+  "test_metrics_at_0.50": {
+    "threshold": 0.5,
+    "accuracy": 0.7068425176286237,
+    "precision": 0.42962962962962964,
+    "recall": 0.05256003624830086,
+    "f1_score": 0.09366168752523213,
+    "roc_auc": 0.6313502167890778,
+    "average_precision": 0.38721486247598436,
+    "confusion_matrix": [
+      [
+        5297,
+        154
+      ],
+      [
+        2091,
+        116
+      ]
+    ]
+  },
+  "test_metrics_at_validation_selected_threshold": {
+    "threshold": 0.23,
+    "accuracy": 0.46186993993209713,
+    "precision": 0.3318692902319044,
+    "recall": 0.8559130040779338,
+    "f1_score": 0.47828839093556147,
+    "roc_auc": 0.6313502167890778,
+    "average_precision": 0.38721486247598436,
+    "confusion_matrix": [
+      [
+        1648,
+        3803
+      ],
+      [
+        318,
+        1889
+      ]
+    ]
+  }
+}
